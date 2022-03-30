@@ -1,0 +1,25 @@
+.RightNav{
+    display: none;
+}
+
+.grid-2{
+    grid-template-columns: 1fr !important;
+}
+
+
+.Website-Btn {
+    color: white;
+    font-size: 1.3rem;
+    font-family: 'Source Sans Pro', sans-serif;
+    border-radius: 36px;
+    padding: 4px 11px;
+    background: var(--Backround-color4);
+    text-decoration: none;
+}
+
+.LeftNav li {
+    font-size: 0.7rem;
+    list-style: none;
+    padding: 0 26px;
+}
+

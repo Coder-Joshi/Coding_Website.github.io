@@ -1,0 +1,235 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+
+
+
+:root {
+  --Backround-color1: #6ccc6e;
+  --Backround-color2: #4c8f4e;
+  --Backround-color3: #ae6ccc;
+  --Backround-color4: #6c43ff;
+  --Backround-color5: #cca66c;
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+html{
+  scroll-behavior: smooth;
+}
+.Navbar_Background{
+  display: flex;
+  background-color: #1e2d40;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+/* LEFT NAV */
+
+.LeftNav {
+  display: flex;
+  align-items: center;
+  /* border: 2px solid rosybrown; */
+  width: 50%;
+}
+.Logo {
+  width: 10%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.Logo img {
+  width: 100%;
+  border: 2px solid #1e2d40;
+}
+.LeftNav li {
+  list-style: none;
+  padding: 0 30px;
+}
+.LeftNav li a {
+  text-decoration: none;
+  font-family: "Source Sans Pro", sans-serif;
+  color: white;
+  font-weight: bold;
+}
+/* RIGHT NAV */
+
+.RightNav {
+  width: 50%;
+  /* border: 2px solid gold; */
+  display: flex;
+  justify-content: right;
+  font-family: "Source Sans Pro", sans-serif;
+}
+
+.SearchPanel {
+  display: flex;
+  align-items: center;
+}
+
+#Search {
+  font-size: 18px;
+  border-radius: 5px;
+}
+
+/* SECTION 1 */
+
+.CodingDescription {
+    position: relative;
+    z-index: 5;
+    max-width: 100%;
+    padding: 0 4rem;
+    margin: 25px auto;
+}
+.MainBackground .CodingDescription.grid-2{
+    display: grid ;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    justify-content: center;
+}
+/* UTILITIES */
+
+.Btn {
+  font-size: 1.5rem;
+  font-family: "Source Sans Pro", sans-serif;
+  border-radius: 5px;
+}
+
+.Header-Title{
+    color: var(--Backround-color4);
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+
+.Image{
+    width: 100%;
+}
+
+.Text{
+    color:#c39bd5;   
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: bold;
+    font-size: 1.5rem;
+    padding: 18px 0px;
+}
+
+.Image-Element{
+    width: 100%;
+}
+
+.Website-Btn{
+  color: white;
+  font-size: 2.3rem;
+  font-family: 'Source Sans Pro', sans-serif;
+  border-radius: 36px;
+  padding: 6px 19px;
+  background: var(--Backround-color4);
+  text-decoration: none;
+}
+
+.Website-Btn:hover{
+  background: transparent;
+  color: #6c43ff;
+  border: 2px solid #6c43ff;
+  border-radius: 36px;
+}
+
+
+.Btn-sm{
+  font-size: 1.07rem;
+  font-family: "Source Sans Pro", sans-serif;
+  border-radius: 5px;
+  color: #1e2d40;
+  background-color: #ffffff;
+  padding: 2px 0px;
+  margin: 8px;
+}
+
+
+
+/* BOOTSTRAP */
+
+.carousel-dark .carousel-caption {
+  font-size: 1.6rem;
+    color: #ffffff;
+    font-weight: 500;
+}
+
+.carousel-dark h5{
+  font-size: 2.3rem;
+}
+
+/* FONT FAMILIES */
+/* font-family: 'Source Sans Pro', sans-serif;
+font-family: 'Source Sans Pro', sans-serif; */
+/* font-family: 'Roboto', sans-serif; */
+
+
+
+.Languages{
+  color: #659e9e;
+}
+
+.Hosting{
+  color: #9fb939;
+}
+
+
+
+
+/* CONTACT US */
+
+.contact {
+  background-color: #f6f5f4;
+  height: 833px;
+
+}
+
+.text-center {
+  text-align: center;
+  padding-top: 30px;
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 35px;
+}
+
+.form {
+  margin: 25px auto;
+  max-width: 62%;
+}
+
+.form-input {
+  padding: 5px 3px;
+  font-size: 18px;
+  width: 100%;
+  border: 2px solid grey;
+  border-radius: 6px;
+  margin: 14px 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.text-footer{
+  text-align: center;
+  padding: 30px 0;
+  font-family: 'Ubuntu', sans-serif;
+  display: flex;
+  justify-content: center;
+  color: white;
+}
+
+
+
+.Contact-Map{
+  height: 50vh;
+}
+
+.Contact-Map iframe{
+  height: 50vh;
+}
+
+
+
